@@ -1,4 +1,12 @@
-.sass-cache/
-*.css.map
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
-node_modules/
+# dependencies
+/.sass-cache
+*.css.map
+/node_modules
+*/node_modules
+
+# misc
+.DS_Store
+
+package-lock.json
